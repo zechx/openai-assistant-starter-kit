@@ -14,8 +14,8 @@ interface Message {
 }
 
 export default function OpenAIAssistant({
-    assistantId = "",
-    greeting = "I am a helpful chat assistant. How can I help you?",
+    assistantId = "asst_MytRz2ceXk1VuijV2BwRg8Uz",
+    greeting = "Soy un Asistente Basado en el Protocolo, ¿Como puedo ayudarte?",
 }) {
     const [isLoading, setIsLoading] = useState(false);
     const [threadId, setThreadId] = useState<string|null>(null);
@@ -150,7 +150,7 @@ export default function OpenAIAssistant({
                     className="border rounded w-full py-2 px-3 text-gray-70" 
                     onChange={handlePromptChange}
                     value={prompt}
-                    placeholder="prompt" />
+                    placeholder="" />
                 {isLoading ? 
                     <button 
                         disabled

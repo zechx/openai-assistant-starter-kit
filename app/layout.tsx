@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "openai-assistant-starter-kit",
-  description: "Use this NextJS app to kickstart your OpenAI application",
+  title: "openai-blumo-assistant",
+  description: "Demo Blumo Protocolo",
 };
 
 export default function RootLayout({
